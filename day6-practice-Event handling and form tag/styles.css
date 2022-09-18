@@ -1,0 +1,14 @@
+.box{
+    height:400px;
+    width:400px;
+    background-color: coral;
+    padding:16px;
+    border:2px solid;
+}
+.child{
+    box-sizing: border-box;
+    background-color: royalblue;
+    height:100%;
+    width:100%;
+    
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <div>
+        <!-- we added label for text input(using its id in 'for') so that we can focus input on clicking label  -->
+        <label for="user">Username</label>
+        <input type="text" name="username" id="user" autocomplete="off">
+    </div>
+    <p id="display"></p>
+    <!-- event bubbling(child to parent) and event capture(from parent to child) -->
+    <div class="parent box">
+        <div class="child box"><button id="subchild">subchild</button></div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashwat's Portfolio</title>
+    <link rel='stylesheet' href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about-me">About Me</a><a href="#qualifications"> Qualifications</a><a href="#hobbies">Hobbies</a><a href="#technologies">Technologies</a><a href="#contact-me">Contact Me</a>
+        </nav>
+    </header>
+    <main class = "container">
+    <article class="intro">
+        <img id="profile-img" src="shashwatIMG.PNG" alt="shashwat's image">
+        <H1>Hi, I'm Shashwat</H1> 
+        <p>I am <span id="dynamic-text" class="dynamic-text-color"></span> </p>
+        <p class="social-links"> 
+            <a  href="https://www.linkedin.com/in/shashwat-singh-8b067a19a/" target="_blank">
+                <img width='30' height='30' src="https://www.iconpacks.net/icons/2/free-linkedin-logo-icon-2430.png" alt="My Linkedin">
+            </a>
+            <a href="https://twitter.com/s_singh01011" target="_blank">
+                <img width='30' height='30' src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429.png" alt="My Twitter">
+            </a>
+            <a href="https://github.com/ShashwatSingh1999" target="_blank">
+                <img width='30' height='30' src="https://www.iconpacks.net/icons/3/free-github-logo-icon-6532.png" alt="My github">
+            </a>
+        </p>
+    </article>
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>I did my Btech from IIPE,Vizag, although I majored in petroleum engineering with a good CGPA
+            of 8.87/10, but I  seem to have found my Knack for tech, I was introduced to C language, data structures and algorithms,
+            OOP, in college itself and in my last semester, I was taught Python, Warehousing concepts and Machine Learning.
+        </p>
+        <p>
+            It was amazing, I enjoyed alot and also used it to build my final year project on lithology prediction using random Forest algorithm.
+        </p>
+        <p>
+            Currently I came across some creators on YT, and learned about Open Source, I wanted to be useful to community and am looking to get started in open source development
+            and as a first step, I am  learning web development alongside my full time job as a data analyst.
+            As the part of challenge I will be building my portfolio website, using frontend technologies.
+        </p>
+    </section>
+    <section id="qualifications">
+
+        <h2>Qualifications</h2>
+        <p>
+            <ol>
+                <li>I qualified IIT-JEE Advanced,2018 and completed BTech in '22</li>
+                <li>I Currently work as a data analyst.</li>
+            </ol>
+        </p>
+    </section>
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Exercising</li>
+            <li>Watching movies</li>
+            <li>music</li>
+        </ul>
+    </section>
+
+    <section id="technologies">
+
+        <h2>Technologies</h2>
+         <table>
+             <tr> 
+                 <th>Current skills</th>
+                 <th>Frontend</th>
+                 <th>Backend</th>
+                 <th>Database</th>
+             </tr>
+            <tr>
+             <td>ML, Python</td>
+             <td>HTML</td>
+             <td>NodeJS</td>
+             <td>MySQL</td>
+            </tr>
+            <tr>
+             <td>DSA, SQL</td>
+             <td>CSS</td>
+             <td>Rails</td>
+             <td>MongoDB</td>
+            </tr>
+            <tr>
+             <td>tableau, PowerBI</td>
+             <td>JS</td>
+             <td>Asp.NET</td>
+             <td>Postgres</td>
+            </tr>
+         </table>
+    </section>
+
+    <section id="contact-me">
+        <form name="contact" id="contact" method="post" data-netlify="true">
+        <h1>Contact Me</h1>
+        <section>
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" required>
+        </section>
+        <section>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" required>
+        </section>
+        <section>
+            <label for="messsage">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>  
+        </section>
+
+        <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    Made with ❤️ by Shashwat Singh ©️2022
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

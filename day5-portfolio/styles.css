@@ -1,0 +1,107 @@
+*{
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    padding:16px;
+    /* by default sticy acts as static element, until top or aother added */
+    position:sticky;
+    top:0px;
+    border-bottom:4px solid;
+    background:hsl(0, 0%, 80%);
+}
+header nav a{
+    margin:16px;
+    text-decoration: none;
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+header nav a:visited{
+    color:rgb(95, 100, 5);
+}
+footer{
+    padding:16px;
+    text-align: center;
+    border-top:4px solid;
+}
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+} 
+.container {
+    padding: 16px;
+}
+.container>section>h2{
+    text-align: center;
+}
+.intro{
+    margin:-16px;
+    padding:16px;
+    background-color: #000000e0;
+    color:white;
+    text-align:center;
+}
+#profile-img{
+    border-radius:50%;
+    height:280px;
+    width:300px;
+}
+.social-links img{
+    height:30px;
+    width:30px;
+
+}
+.social-links a{
+    text-decoration:none;
+    margin:auto 16px;
+}
+
+table,
+tr,
+th,
+td{
+    border:1px solid;
+    border-collapse: collapse;
+    width:100%;
+}
+
+th,td{
+    padding:8px;
+}
+p{
+    font-size:1.5rem;
+    line-height: 2rem;
+}
+.dynamic-text-color{
+    color:rgb(213, 145, 133);
+}
+form#contact {
+    max-width:400px;
+    margin:auto;
+    padding:16px;
+    border:1px solid;
+    border-radius: 16px;
+    
+}
+#contact label{
+    display:block;
+    font-weight: 600;
+}
+#contact input,
+#contact textarea,
+#contact button{
+    margin:8px;
+    padding:8px;
+    width:100%;
+   
+}
+#contact-me{
+    margin-top:32px;
+}
+/* #contact input:focus,
+#contact textarea:focus{
+    outline:2px solid rgb(12, 52, 185);
+} */

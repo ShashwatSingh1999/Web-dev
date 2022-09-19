@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <p><strong>Strong </strong>pseudo element:</p>
+    <div class='box' id="parent">
+        <div class='box' id="child">
+            <p>absolute positioned element</p>
+        </div>
+        
+    </div>
+    <!-- whenever we set a parent's position as relative, it puts a constraint that, all its absolute children will position them w.rt it. -->
+    <!-- absolute positioned element positions itself according to immediate relative parent an if it doesn't find any parent as relative then it positions w.r.t topmost element -->
+    <!-- position based elements create a stacking context, which are stacked on each other, to change the order in which they are stacked. we use z-index -->
+    <!-- in case of fixed position it positions relative to viewport -->
+    <!-- higher z-index more on top it will appear -->
+</body>
+</html>

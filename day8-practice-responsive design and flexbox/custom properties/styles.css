@@ -1,0 +1,14 @@
+:root{
+    --background-color:gray;
+    --text-color:black;
+}
+body{
+    background-color: var(--background-color);
+    color:var(--text-color);
+}
+@media (prefers-color-scheme:dark){
+    body{
+        --background-color:black;
+        --text-color:white;
+    }
+}
